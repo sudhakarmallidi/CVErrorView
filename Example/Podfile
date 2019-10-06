@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CVErrorView_Example' do
+  pod 'CVErrorView', :path => '../'
+
+  target 'CVErrorView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
